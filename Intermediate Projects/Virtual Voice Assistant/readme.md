@@ -24,5 +24,9 @@ The hard part was implementing the wiki search and language changing features, a
 ### What's the plan now?
 In the future I hope to give this virtual voice assistant more features and hopefully a GUI or a 2D model.
 
+### Credits
+Credit goes to Dante Sblendorio for making an awesome blog on how to create a digital assistant in python
+[How To Build A Digital Virtual Assistant In Python](https://www.activestate.com/blog/how-to-build-a-digital-virtual-assistant-in-python)
+
 ## How to Use
 If you would like to try this script out you can simply copy and paste the code from assistant.py, just make sure you have a venv ready with the dependencies.
