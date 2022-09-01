@@ -1,10 +1,8 @@
 import os
 import speech_recognition as sr
-import pywhatkit
 import wikipedia
 from datetime import datetime
 import time
-import os
 from gtts import gTTS
 from playsound import playsound
 
