@@ -27,6 +27,7 @@ In the future I hope to give this virtual voice assistant more features and hope
 ### Credits
 Credit goes to Dante Sblendorio for making an awesome blog on 
 [How To Build A Digital Virtual Assistant In Python](https://www.activestate.com/blog/how-to-build-a-digital-virtual-assistant-in-python)
+and also all the amazing people who made the libraries included in this project
 
 ## How to Use
 If you would like to try this script out you can simply copy and paste the code from assistant.py, just make sure you have a venv ready with the dependencies.
