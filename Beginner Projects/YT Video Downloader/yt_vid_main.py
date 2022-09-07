@@ -5,14 +5,11 @@ author: Dama D. Daliman (a.k.a RunningPie)
 '''
 
 # import the libraries used
-import time
-from platform import python_branch
-from tkinter.ttk import Progressbar
 from PIL import Image, ImageTk  # library for image processing
 from io import BytesIO  # library to handle byte input and output
 import urllib.request   # library to handle url requests
 from pytube import YouTube  # library for interacting with youtube
-from tkinter import HORIZONTAL, filedialog  # module for filedialog
+from tkinter import filedialog  # module for filedialog
 from tkinter import messagebox  #module for messagebox
 import tkinter as tk   # library for GUI
 
@@ -47,7 +44,6 @@ def display_thumb():
 # define function to download the yt video
 def Download_Video():
     # Download_Video() performs the download through pytube
-    global p_bar
     global yt
     global vid_to_down
     
@@ -127,9 +123,7 @@ savename_entry.place(x = 5, y = 750)
 # Button for performing the download
 down_btn = tk.Button(window,text = "DOWNLOAD VIDEO", font = ("Miriam", 15, "bold") ,fg="white",bg = 'black', padx = 2,command=Download_Video)
 down_notice_label = tk.Label(window, text = '', font = ("Miriam", 20, "bold"),fg="White",bg=window_bg)
-p_bar = Progressbar(window, orient= HORIZONTAL, length=100, mode="determinate")
 down_btn.place(x=385 ,y = 800)
 down_notice_label.place(x= 100 , y = 850)
-p_bar.pack(fill=tk.X, pady=90)
 
 window.mainloop()
