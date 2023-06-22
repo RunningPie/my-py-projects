@@ -9,8 +9,12 @@ Studi kasus ini dibuat oleh: Dama D. Daliman (a.k.a RunningPie) yang dibuat seba
 Disclaimer: Skenario dan tokoh dalam studi kasus ini hanyalah fiktif. Segala kesamaan atau kemiripan dengan skenario ataupun orang di dunia nyata hanyalah kebetulan. Data yang digunakan didapatkan dari perusahaan nyata berdasarkan cara yang benar dan sah.
 
 Komponen-komponen yang disertakan dalam repositori ini adalah:
-1. Python Notebook sebagai dokumentasi langkah analisis secara lengkap
-[![Click Me](https://elc.github.io/blog/images/jupyter-publishing/ipynb-format.png)](https://github.com/RunningPie/my-py-projects/blob/main/Data%20Science%20Projects/Data%20Analysis/Studi%20Kasus%20-%20Google%20Data%20Analytics%20Course/analysis.ipynb)
+1. Python Notebook sebagai dokumentasi langkah analisis secara lengkap (bisa juga langsung diakses melalui icon di bawah ini)
+<p align="center">
+<a href="https://github.com/RunningPie/my-py-projects/blob/main/Data%20Science%20Projects/Data%20Analysis/Studi%20Kasus%20-%20Google%20Data%20Analytics%20Course/analysis.ipynb">
+    <img src="https://elc.github.io/blog/images/jupyter-publishing/ipynb-format.png" alt="analysis.ipynb" height="100">
+</a>
+</p>
 
 2. Gambar-gambar tangkapan layar dari visualisasi data menggunakan tableau public
 
